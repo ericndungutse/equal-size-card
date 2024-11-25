@@ -1,0 +1,28 @@
+.container{
+  width: 100%;
+  display: flex;
+  gap: 5px;
+}
+
+.card{
+  border:1px solid #ccc;
+  border-radius:10px;
+   display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  padding: 15px
+}
+
+
+p {
+  margin: 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+.home{
+  padding: 10px;
+}
